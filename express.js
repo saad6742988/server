@@ -5,4 +5,4 @@ e.get('/',(req,res)=>
 {
     res.send("hello expreess")
 })
-e.listen(300,()=>{console.log('listening express server')})
+e.listen(process.env.PORT||300,()=>{console.log('listening express server')})
