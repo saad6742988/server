@@ -2,7 +2,7 @@ const express=require('express')
 const e=express();
 e.get('/',(req,res)=>
 {
-    res.write("<ul><li>Coffee</li><li>Tea</li><li>Milk</li></ul>")
+    res.send("<ul><li>Coffee</li><li>Tea</li><li>Milk</li></ul>")
 })
 e.get('/Bilal',(req,res)=>
 {
