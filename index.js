@@ -2,11 +2,11 @@ const express=require('express')
 const e=express();
 e.get('/',(req,res)=>
 {
-    res.send("<><ul>
+    res.send("<ul>
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
-</ul></>")
+</ul>")
 })
 e.get('/Bilal',(req,res)=>
 {
